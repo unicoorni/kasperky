@@ -1,16 +1,17 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
 }
 
 table {
     table-layout: fixed;
     width: 100%;
-    border-collapse: collapse;
+    /* border-collapse: collapse; */
     font-size: medium;
     font-weight: 100;
     width: 500px;
-    border: 2px solid #2196f3;
     border-radius: 0.4em;
 
 
@@ -19,15 +20,29 @@ table {
 table,
 th,
 td {
-    border: 2px solid #2196f3;
+    border: none;
     padding: 5px;
     margin: 5px;
+}
 
-    
+td {
+   
+    border-bottom: 1px solid #787f871c ;
+}
+.id {
+    width: 40px;
+    text-align: start;
+    border-right: 1px solid #787f871c ;
+}
+
+.textHeader {
+    text-align: start;
 }
 
 .selected {
-    background-color: #2196f3;
+    background-color: #e84b4b;
+    color: aliceblue;
+    border-radius: 4px;
 }
 
 .main {
