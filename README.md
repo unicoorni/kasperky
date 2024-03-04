@@ -7,4 +7,5 @@
 # С чем возникли проблемы:
 проблема с кодировкой русского языка
 # Приоложение доступно по ссылке:
-https://unicoorni.github.io/kasperkyCase/
+https://unicoorni.github.io/kasperky/
+
